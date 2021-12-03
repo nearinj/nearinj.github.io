@@ -7,6 +7,8 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+    - text: "CV"
+    - href: JTN_CV_21_12_01.pdf 
 output:
   html_document:
     theme: cosmo
