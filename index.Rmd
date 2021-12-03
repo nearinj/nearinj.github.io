@@ -25,5 +25,5 @@ Welcome to my personal website. I am a PhD candidate in Microbiology and Immunol
 This site is designed to include information on my professional activites and document any useful tutorials I have developed throughout my career as a researcher.
 
 
-
+![](assets/photos/Capture_270.JPG "Title")
 
