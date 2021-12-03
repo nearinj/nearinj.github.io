@@ -18,8 +18,9 @@ h1, h2, h3 {
 
 # Welcome
 
-Welcome to my personal website. I am a PhD candidate in Microbiology and Immunology at Dalhousie University who is working under the supervison of [Dr. Morgan Langille](https://morganlangille.com/).
 
+
+Welcome to my personal website. I am a PhD candidate in Microbiology and Immunology at Dalhousie University who is working under the supervison of [Dr. Morgan Langille](https://morganlangille.com/).
 
 
 This site is designed to include information on my professional activites and document any useful tutorials I have developed throughout my career as a researcher.

@@ -1,5 +1,4 @@
 ---
-title: "About"
 output: 
   rmdformats::downcute:
     self_contained: true
@@ -13,10 +12,25 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+```{css, echo=FALSE}
+h1, h2, h3 {
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+```
+
+# About
+
 I am a PhD candidate at Dalhousie University (Halifax, Nova Scotia, Canada) working under the supervision of [Dr. Morgan Langille](https://morganlangille.com/). I have a background in both computer science and microbiology and immunology with a particular interest in data science. 
 
 
-![](assets/photos/36403838_10216371585343121_5158076003884466176_n.jpg)
+<img src="assets/photos/36403838_10216371585343121_5158076003884466176_n.jpg" alt="drawing" width="200"/ class="center">
 
 My current research is focused on the identification of robust microbiome biomarkers with a focus on the oral cavity and cancer. During my PhD research I was interested in understanding how the use of different bioinformatic tools and approachs can impact the conclusions drawn from microbiome sequencing data. Through this work I examined [how different sequence grouping and error correction methods impact biological conculsions](https://doi.org/10.7717/peerj.5364) and how the use of [different statistical tools can result in the discovery of different biomarkers](https://www.biorxiv.org/content/10.1101/2021.05.10.443486v1.abstract). Following from this research I was also interested in using [large population cohorts to understand what factors shape the oral microbiome](https://doi.org/10.1128/mSphere.00451-20) but also whether there are biomarkers of reterospective and prospective cases of breast, prostate and colon the cancer. This later part of my research will be including in my upcoming thesis in July 2022. I have also been involved in a number of other projects including the analysis of the [gut microbiome in pediatriac ALL](https://doi.org/10.3389/fcimb.2019.00028) and the examination of [genetic biomarkers in breast cancer treatment](https://doi.org/10.1002/1878-0261.12964).
 
@@ -24,6 +38,6 @@ For a full list of publications I have been involved in please check out my CV o
 
 To take a look at the various types of analysis and projects I have coded take a look at my [GitHub page](https://github.com/nearinj).
 
-Please feel free to contact me on [Twitter](https://twitter.com/JTNearing) or by email at: 
+Please feel free to contact me on [Twitter](https://twitter.com/JTNearing) or by email at: <img src="assets/photos/email.JPG" alt="email" title="email">
 
 
