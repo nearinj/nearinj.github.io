@@ -11,7 +11,7 @@
 
 
 
-<title>about.knit</title>
+<title>Research</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -236,7 +236,7 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html"></a>
+      <a class="navbar-brand" href="index.html">Jacob T. Nearing</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -244,11 +244,16 @@ $(document).ready(function () {
   <a href="index.html">Home</a>
 </li>
 <li>
-  <a href="about.html">About</a>
+  <a href="research.html">Research</a>
 </li>
-<li class="dropdown-header">CV</li>
 <li>
-  <a href="JTN_CV_21_12_01.pdf"></a>
+  <a href="publications.html">Publications</a>
+</li>
+<li>
+  <a href="Teaching.html">Teaching</a>
+</li>
+<li>
+  <a href="CV.html">CV</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -262,31 +267,43 @@ $(document).ready(function () {
 
 
 
+<h1 class="title toc-ignore">Research</h1>
 
 </div>
 
 
-<style type="text/css">
-h1, h2, h3 {
-  text-align: center;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-</style>
-<div id="about" class="section level1">
-<h1>About</h1>
-<p>I am a PhD candidate at Dalhousie University (Halifax, Nova Scotia, Canada) working under the supervision of <a href="https://morganlangille.com/">Dr. Morgan Langille</a>. I have a background in both computer science and microbiology and immunology with a particular interest in data science.</p>
-<p><img src="assets/photos/36403838_10216371585343121_5158076003884466176_n.jpg" alt="drawing" width="200"/ class="center"></p>
-<p>My current research is focused on the identification of robust microbiome biomarkers with a focus on the oral cavity and cancer. During my PhD research I was interested in understanding how the use of different bioinformatic tools and approachs can impact the conclusions drawn from microbiome sequencing data. Through this work I examined <a href="https://doi.org/10.7717/peerj.5364">how different sequence grouping and error correction methods impact biological conculsions</a> and how the use of <a href="https://www.biorxiv.org/content/10.1101/2021.05.10.443486v1.abstract">different statistical tools can result in the discovery of different biomarkers</a>. Following from this research I was also interested in using <a href="https://doi.org/10.1128/mSphere.00451-20">large population cohorts to understand what factors shape the oral microbiome</a> but also whether there are biomarkers of reterospective and prospective cases of breast, prostate and colon the cancer. This later part of my research will be including in my upcoming thesis in July 2022. I have also been involved in a number of other projects including the analysis of the <a href="https://doi.org/10.3389/fcimb.2019.00028">gut microbiome in pediatriac ALL</a> and the examination of <a href="https://doi.org/10.1002/1878-0261.12964">genetic biomarkers in breast cancer treatment</a>.</p>
-<p>For a full list of publications I have been involved in please check out my CV on this webpage or my <a href="https://scholar.google.ca/citations?user=ZRZfufoAAAAJ&amp;hl=en">Google Scholar</a>.</p>
-<p>To take a look at the various types of analysis and projects I have coded take a look at my <a href="https://github.com/nearinj">GitHub page</a>.</p>
-<p>Please feel free to contact me on <a href="https://twitter.com/JTNearing">Twitter</a> or by email at: <img src="assets/photos/email.JPG" alt="email" title="email"></p>
-</div>
+<p>
+<p>My current research interests lie in the examination of microbiome sequencing data to better understand the various relationships between cancer and microbial agents. I also am interested in looking at various biases in microbiome data and how the use of different bioinformatic tools for the same goal can result in differing conclusions. I am always happy to hear comments and questions regarding my research and highly value collaboration so please feel free to contact me. For more information on my research check out my <a href="CV.html">CV</a>.</p>
+<h2>
+Robust Microbiome analysis
+</h2>
+<p>A myriad of different bioinformatic tools exist for the processing and statistical examination of microbiome data. Of particular interest are the various ways researchers use different tools to adjust for sequencing errors through clustering operational taxonomic units or correcting errors to make amplicon sequence variants. This interest has led me to compare various error correction methods with standard operational taxonomic unit clustering to determine whether biological conclusions would be impacted by tool choice. This paper is published in PeerJ and is freely available <a href="https://peerj.com/articles/5364/">here</a>.</p>
+<p>Another step in microbiome examination is the ability to identify taxa that are associated with the researchers outcome of interest. Due to the unique characteristics of microbiome data, there have been a number of different tools developed to identify differentially abundant taxa. Currently in literature there is no gold standard on which tools researchers should apply and as such they are often used interchangeably with one another. To address this myself and colleagues characterized 14 different DA methods over 38 different microbiome datasets to understand how tool choice would impact study conclusions. This paper is published in Nature Communications and is freely available <a href="https://www.nature.com/articles/s41467-022-28034-z">here</a>.</p>
+<h2>
+Microbiome and Cancer
+</h2>
+<p>There is a strong amount of evidence to indicate that several bacterial and viral agents can cause the development of cancer. To gain a better understand of the various role’s microbes play in the development of cancer I have been conducting a large population study on the association of microbes found in salivary samples and breast, colon, and prostate cancer. The first publication of this project describes the composition of the oral microbiome in healthy individuals across Atlantic Canada and the various dietary, anthropometric, and sociodemographic features associated with changes in the community membership. This paper is published in mSphere and is freely available <a href="https://journals.asm.org/doi/full/10.1128/mSphere.00451-20">here</a>.</p>
+<p>I am currently working on comparing these healthy controls to individuals that have develop breast, prostate, or colon cancer either before salivary sampling or after salivary sampling. Stay tuned to see the results of this study.</p>
+<h2>
+Other general interests
+</h2>
+<ul>
+<li>
+Microbial genomics
+</li>
+<li>
+Microbial evolution
+</li>
+<li>
+Virology
+</li>
+<li>
+Machine Learning
+</li>
+<li>
+High dimensional data analysis
+</li>
+</ul>
 
 
 

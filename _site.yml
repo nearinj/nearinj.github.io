@@ -1,14 +1,21 @@
-name: "Iron Analysis"
+name: "Jacob Nearing's Personal Website"
 output_dir: "docs"
 navbar:
-  title: ""
+  title: "Jacob T. Nearing"
   left:
     - text: "Home"
       href: index.html
-    - text: "About"
-      href: about.html
+    - text: "Research"
+      href: research.html 
+    - text: "Publications"
+      href: publications.html    
+    - text: "Teaching"
+      href: Teaching.html
     - text: "CV"
-    - href: JTN_CV_21_12_01.pdf 
+      href: CV.html
+      
 output:
   html_document:
     theme: cosmo
+    margin-top: 0
+

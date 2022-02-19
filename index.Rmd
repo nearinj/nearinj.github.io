@@ -1,30 +1,88 @@
 ---
-output: 
-  rmdformats::downcute:
-    self_contained: true
-    default_style: "light"
-    downcute_theme: "chaos"
+title: ""
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+
 ```{css, echo=FALSE}
+
+body .main-container {
+max-width: 1200px;
+}
+
+.fa{
+    color: black;
+    font-size: 200px;
+}
+
+
+p {
+  margin-top: 30px;
+  #line-height: 200%
+}
+
+
 h1, h2, h3 {
-  text-align: center;
+   text-align: center;
 }
 ```
 
-# Welcome
+<p>
+:::: {.columns}
+::: {.column width="40%"}
+
+<img 
+    style="display: block; 
+           margin-left: auto;
+           margin-right: auto;
+           width: 200%;"
+    src="assets/photos/home_photo1.png" 
+    alt="Jacob and his dog Finnigan">
+</img>
 
 
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="55%"}
 
-Welcome to my personal website. I am a PhD candidate in Microbiology and Immunology at Dalhousie University who is working under the supervison of [Dr. Morgan Langille](https://morganlangille.com/).
+<font size="20"> About </font>
 
+<font size="5"> I am a PhD candidate at Dalhousie University (Halifax, Nova Scotia, Canada) in the [Department of Microbiology and Immunology](https://medicine.dal.ca/departments/department-sites/microbiology.html) working under the supervision of [Dr. Morgan Langille](https://morganlangille.com/).
 
-This site is designed to include information on my professional activites and document any useful tutorials I have developed throughout my career as a researcher.
+My research is currently focussed on how we can analyze microbiome data in a robust manner to identify associations between various microbes and the development or progression of cancer. I have also worked as a bioinformatician on a number of other projects rangning from microarray expression data to microbiome soil analysis. </font>
 
+:::
+::::
 
-![](assets/photos/Capture_270.JPG "Title")
+</p>
 
+&nbsp;
+<hr />
+
+<h1>
+  Follow me to see my latest works
+
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/path/to/folder/css/academicons.min.css"/>
+
+<!-- Add font awesome icons -->
+<p style="text-align: center;">
+    <a href="https://twitter.com/JTNearing" class="fa fa-twitter" style="font-size:50px;"></a>
+    <a href="https://github.com/nearinj/" class="fa fa-github" style="font-size:50px;"></a>
+    <a href="https://scholar.google.ca/citations?user=ZRZfufoAAAAJ" class="fa fa-graduation-cap" style="font-size:50px;"></a>
+    <img 
+        style="display: block; 
+           margin-left: auto;
+           margin-right: auto;
+           width: 20%;"
+    src="assets/photos/email.JPG" 
+    alt="Jacob and his dog Finnigan">
+</p>
+</h1>
+
+&nbsp;

@@ -1,0 +1,38 @@
+---
+title: ""
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+<p>
+
+<font size="20"> Publications <font>
+
+<font size="4"> 
+
+1.	Michael R. McLaren, <b>Jacob T. Nearing</b>, Amy D. Willis, Karen G. Lloyd, & Benjamin J. Callahan. Accurate inference of microbial differential abundance from taxonomically-biased microbiome measurements. <em>In Draft</em>.
+
+2.	<b>Jacob T. Nearing</b>, Gavin M. Douglas, Molly Hayes, Jocelyn MacDonald, Dhwani Desai, Nicole Allward, Casey M.A. Jones, Robyn Wright, Akhilesh Dhanani, André M. Comeau, & Morgan G.I. Langille. (2021). [Microbiome differential abundance methods produce different results across 38 datasets](https://www.nature.com/articles/s41467-022-28034-z). <em>Nature Communications</em>
+
+3.	Vanessa DeClercq, <b>Jacob T. Nearing</b>, Morgan G.I. Langille. (2021) [Investigation of impact of commonly used medications on the oral microbiome of individuals living without major chronic conditions](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0261032). <em>PLOS ONE</em>
+
+4.	<b>Jacob T. Nearing</b>, André M. Comeau, & Morgan G.I. Langille. (2021). [Identifying biases and their potential solutions in human microbiome studies](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-021-01059-0). <em>Microbiome</em>
+
+5.	Mohammad Sultan, <b>Jacob T. Nearing</b>, Justin M. Brown, Thomas T. Huynh, Brianne M. Cruickshank, Emily Lamoureaux, Dejan Vidovic, Margaret L. Dahn, Wasundara Fernando, Krysta M. Coyle, Carman A. Giacomantonio, Morgan G.I. Langille, & Paola Marcato. (2021). [An in vivo genome-wide shRNA screen identifies BCL6 as a targetable biomarker of paclitaxel resistance in breast cancer](https://febs.onlinelibrary.wiley.com/doi/full/10.1002/1878-0261.12964). <em>Molecular Oncology</em>
+
+6.	Janie Zhang, Jamie Cook, <b>Jacob T. Nearing</b>, Junzeng Zhang, Renee Raudonis, Bernard R Glick, Morgan G.I. Langille, & Zhenyu Cheng. (2021). [Harnessing the plant microbiome to promote the growth of agricultural crops](https://www.sciencedirect.com/science/article/pii/S0944501320305589). <em>Microbiological Research</em>
+
+7.	<b>Jacob T. Nearing</b>, Vanessa DeClercq, Johan Van Limbergen, & Morgan G.I. Langille. (2020). [Assessing the variation within the oral microbiome of healthy adults](https://journals.asm.org/doi/full/10.1128/mSphere.00451-20). <em>mSphere</em>
+
+8.	Katherine A. Dunn, Jessica Connors, Joseph P. Bielawski, <b>Jacob T. Nearing</b>, Morgan G.I. Langille, Johan Van Limbergen, Conrad Vincent Fernandez, Tamara MacDonald & Ketan Kulkarni. (2020). [Investigating the gut microbial community and genes in children with differing levels of change in serum asparaginase activity during pegaspargase treatment for acute lymphoblastic leukemia](https://www.tandfonline.com/doi/abs/10.1080/10428194.2020.1850718). <em>Leukemia & Lymphoma</em>
+
+9.	Svetlana N. Yurgel, <b>Jacob T. Nearing</b>, Gavin M. Douglas, & Morgan G.I. Langille. (2019). [Metagenomic functional shifts to plant induced environmental changes](https://www.frontiersin.org/articles/10.3389/fmicb.2019.01682/full). <em>Frontiers in Microbiology</em> 
+
+10.	<b>Jacob T. Nearing</b>, Jessica Connors, Scott Whitehouse, Johan Van Limbergen, Tamara Macdonald, Ketan Kulkarni, & Morgan G.I. Langille. (2019). [Infectious complications are associated with alterations in the gut microbiome in pediatric patients with acute lymphoblastic leukemia](https://www.frontiersin.org/articles/10.3389/fcimb.2019.00028/full). <em>Frontiers in Cellular and Infection Microbiology</em>
+
+11.	<b>Jacob T. Nearing</b>, Gavin M. Douglas, Andre Comeau, & Morgan G.I. Langille. (2018). [Denoising the Denoisers: An independent evaluation of microbiome sequence error-correction approaches](https://peerj.com/articles/5364/). <em>PeerJ</em>.
+
+</font>
