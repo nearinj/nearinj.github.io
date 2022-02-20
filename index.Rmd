@@ -53,7 +53,7 @@ h1, h2, h3 {
 
 <font size="5"> I am a PhD candidate at Dalhousie University (Halifax, Nova Scotia, Canada) in the [Department of Microbiology and Immunology](https://medicine.dal.ca/departments/department-sites/microbiology.html) working under the supervision of [Dr. Morgan Langille](https://morganlangille.com/).
 
-My research is currently focussed on how we can analyze microbiome data in a robust manner to identify associations between various microbes and the development or progression of cancer. I have also worked as a bioinformatician on a number of other projects rangning from microarray expression data to microbiome soil analysis. </font>
+My research is currently focussed on how we can analyze microbiome data in a robust manner to identify associations between various microbes and the development or progression of cancer. I have also worked as a bioinformatician on a number of other projects ranging from microarray expression data to microbiome soil analysis. </font>
 
 :::
 ::::
