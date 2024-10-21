@@ -51,9 +51,9 @@ h1, h2, h3 {
 
 <font size="20"> About </font>
 
-<font size="5"> I am a PhD candidate at Dalhousie University (Halifax, Nova Scotia, Canada) in the [Department of Microbiology and Immunology](https://medicine.dal.ca/departments/department-sites/microbiology.html) working under the supervision of [Dr. Morgan Langille](https://morganlangille.com/).
+<font size="5">I am a Postdoctoral Fellow at the Harvard T.H. Chan School of Public Health and the Broad Institute of MIT and Harvard, working in the lab of [Dr. Curtis Huttenhower](https://huttenhower.sph.harvard.edu/home). I completed my PhD in Microbiology and Immunology at Dalhousie University under the supervision of [Dr. Morgan Langille](https://morganlangille.com).
 
-My research is currently focussed on how we can analyze microbiome data in a robust manner to identify associations between various microbes and the development or progression of cancer. I have also worked as a bioinformatician on a number of other projects ranging from microarray expression data to microbiome soil analysis. </font>
+My research focuses on analyzing high-throughput sequencing data of microbial communities. I develop bioinformatic tools and work on microbiome epidemiological studies. For my most recent publications, visit my [Google Scholar](https://scholar.google.com/citations?user=ZRZfufoAAAAJ&hl=fr).
 
 :::
 ::::

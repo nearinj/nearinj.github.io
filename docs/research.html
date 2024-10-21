@@ -13,7 +13,8 @@
 
 <title>Research</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -59,6 +60,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -79,6 +81,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -136,11 +141,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -169,8 +178,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -178,16 +187,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -231,7 +233,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -273,29 +275,41 @@ $(document).ready(function () {
 
 
 <p>
-<p>My current research interests lie in the examination of microbiome sequencing data to better understand the various relationships between cancer and microbial agents. I also am interested in looking at various biases in microbiome data and how the use of different bioinformatic tools for the same goal can result in differing conclusions. I am always happy to hear comments and questions regarding my research and highly value collaboration so please feel free to contact me. For more information on my research check out my <a href="CV.html">CV</a>.</p>
-<h2>
-Robust Microbiome analysis
-</h2>
-<p>A myriad of different bioinformatic tools exist for the processing and statistical examination of microbiome data. Of particular interest are the various ways researchers use different tools to adjust for sequencing errors through clustering operational taxonomic units or correcting errors to make amplicon sequence variants. This interest has led me to compare various error correction methods with standard operational taxonomic unit clustering to determine whether biological conclusions would be impacted by tool choice. This paper is published in PeerJ and is freely available <a href="https://peerj.com/articles/5364/">here</a>.</p>
-<p>Another step in microbiome examination is the ability to identify taxa that are associated with the researchers outcome of interest. Due to the unique characteristics of microbiome data, there have been a number of different tools developed to identify differentially abundant taxa. Currently in literature there is no gold standard on which tools researchers should apply and as such they are often used interchangeably with one another. To address this myself and colleagues characterized 14 different DA methods over 38 different microbiome datasets to understand how tool choice would impact study conclusions. This paper is published in Nature Communications and is freely available <a href="https://www.nature.com/articles/s41467-022-28034-z">here</a>.</p>
-<h2>
-Microbiome and Cancer
-</h2>
-<p>There is a strong amount of evidence to indicate that several bacterial and viral agents can cause the development of cancer. To gain a better understand of the various role’s microbes play in the development of cancer I have been conducting a large population study on the association of microbes found in salivary samples and breast, colon, and prostate cancer. The first publication of this project describes the composition of the oral microbiome in healthy individuals across Atlantic Canada and the various dietary, anthropometric, and sociodemographic features associated with changes in the community membership. This paper is published in mSphere and is freely available <a href="https://journals.asm.org/doi/full/10.1128/mSphere.00451-20">here</a>.</p>
-<p>I am currently working on comparing these healthy controls to individuals that have develop breast, prostate, or colon cancer either before salivary sampling or after salivary sampling. Stay tuned to see the results of this study.</p>
-<h2>
-Other general interests
-</h2>
+<p>My research focuses on analyzing microbiome sequencing data to better
+understand the relationships between microbial agents and host
+phenotypes, including diseases such as cancer or dietary changes such as
+low carbohydrate diets. I also dedicate significant effort to developing
+and evaluating bioinformatic tools and workflows for the analysis of 16S
+rRNA gene sequencing and metagenomic shotgun sequencing data.</p>
+<p>I have worked on a variety of microbiome based research projects that
+have studied:</p>
 <ul>
 <li>
 Microbial genomics
 </li>
 <li>
-Microbial evolution
+Differential Abundance
 </li>
 <li>
-Virology
+Processing 16S rRNA gene sequencing data
+</li>
+<li>
+Oral microbiome and cancer
+</li>
+<li>
+Companion animal microbiomes
+</li>
+<li>
+Bias in microbiome sequencing studies
+</li>
+<li>
+Multi-omic data analysis
+</li>
+</ul>
+<p>Other general topics I am intersted in include:</p>
+<ul>
+<li>
+Microbial evolution
 </li>
 <li>
 Machine Learning
@@ -303,7 +317,17 @@ Machine Learning
 <li>
 High dimensional data analysis
 </li>
+<li>
+Data visualization
+</li>
+<li>
+Virology
+</li>
 </ul>
+<p>I welcome comments and questions about my work and greatly value
+collaboration. Please feel free to contact me. For more information on
+my projects, visit my <a href="CV.html">CV</a>.</p>
+</p>
 
 
 

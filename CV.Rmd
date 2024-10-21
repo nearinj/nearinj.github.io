@@ -8,10 +8,10 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 <p class="lead">
- <small> <a href="assets/CV/JTN_CV_22_02_07.pdf">Click here</a> to
+ <small> <a href="assets/CV/JTN_CV_24_07docx.pdf">Click here</a> to
   view my CV as an isolated PDF.</small>
 </p>
-<object data="assets/CV/JTN_CV_22_02_07.pdf" type="application/pdf" width="100%" height="800px"> 
+<object data="assets/CV/JTN_CV_24_07docx.pdf" type="application/pdf" width="100%" height="800px"> 
   <p>It appears you don't have a PDF plugin for this browser. Click above to view my CV.</p>  
 </object>
   
